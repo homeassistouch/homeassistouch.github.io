@@ -62705,7 +62705,7 @@ while(true)switch(t){case 0:P.t("RoomData.load: reason "+b0)
 p=$.d()
 o=p.aL
 if(o===""){t=1
-break}if(o==="httphasskit.duckdns.org8123"){p.C=H.a([],u.hj)
+break}if(o==="httpshasskit.duckdns.org442"){p.C=H.a([],u.hj)
 p=$.d()
 p.C.push(p.ar)
 p=$.d()
@@ -62752,7 +62752,7 @@ if($.d().C.length<1){P.t("RoomData.load add RoomDataHassKit")
 p=$.d()
 o=p.F[0].a
 k=p.C
-if(o==="http://hasskit.duckdns.org:8123")k.push(p.ar)
+if(o==="https://hasskit.duckdns.org:442")k.push(p.ar)
 else k.push(p.aM)
 p=$.d()
 p.C.push(p.dw)
@@ -66076,7 +66076,7 @@ l=M.x(g,D.dX(g,new T.hQ(C.t,C.o,C.j,C.k,g,C.aD,g,H.a([new T.a8(4,g,g,g),new L.iB
 if(m){o=$.lD.h(0,d)
 o=R.akI("Disconnect",C.M,new X.dk(o==null?0:o,e,!1),new R.afP(r))}else{o=$.lD.h(0,f)
 o=R.akI("Connect",C.M,new X.dk(o==null?0:o,e,!1),new R.afQ(r,p))}o=H.a([o],c)
-k=H.a([p.a==="http://hasskit.duckdns.org:8123"?g:R.akI("Delete",C.M,C.pL,new R.afR(r,p))],c)
+k=H.a([p.a==="https://hasskit.duckdns.org:442"?g:R.akI("Delete",C.M,C.pL,new R.afR(r,p))],c)
 b.push(new A.z5(l,g,new A.K5(o),new A.K5(k),new V.K4(g),g,0.25,C.t,0.5,C.L,!0,!0,2500,g))}return T.as(b,C.k,C.o,C.j)}}
 R.afO.prototype={
 $0:function(){T.am(1,1)
